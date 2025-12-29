@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+.col-1,header,.article,.aside,footer{
+    padding: 1em;
+}
+.col-1{
+    background-color: #D7E8D4;
+    width: 18%;
+    height: 100vh;
+}
+.col-2{
+    display: flex;
+    flex-direction: column;
+    min-width: 82vw;
+}
+header,footer{
+    background-color: yellowgreen;
+    height: 20vh;
+    width: 100%;
+}
+main{
+    display: flex;
+}
+.aside{
+    background-color:beige ;
+    height: 60vh;
+    width: 20%;
+}
+.article{
+    height: 60vh;
+    flex-grow: 1;
+}
